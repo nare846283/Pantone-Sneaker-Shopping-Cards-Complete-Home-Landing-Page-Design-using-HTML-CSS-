@@ -1,0 +1,319 @@
+@font-face {
+    font-family: bebas;
+    src: url(./BebasNeue-Regular.otf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+.color1{
+    background-color: #b13b6b;
+}
+
+.color2{
+    background-color: #ec3951;
+}
+
+.color3{
+    background-color: #14343e;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(130deg, #14343e, 80%, rgba(238, 238, 238, 0.63));
+    background-position: center;
+}
+
+.first .heading{
+    gap: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 74%;
+    height: 20%;
+    margin: 0px auto;
+}
+
+.first .heading .card{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    width: calc( 100% / 3 );
+    height: 100%;
+}
+
+.first .heading .card span{
+    width: 3px;
+    height: 14px;
+}
+
+.first .heading .card h3{
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: bebas;
+}
+
+.main-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    width: 74%;
+    height: 65%;
+    margin: 0px auto;
+}
+
+.first .main-card .color1{
+    position: relative;
+}
+
+.first .main-card .color1 .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 5%;
+    left: 5%;
+    position: absolute;
+    width: 40px;
+    height: 30px;
+}
+
+.first .main-card .color1 .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.first .main-card .color1 .main-image{
+    
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -60%;
+    left: -40%;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    transform: rotate(-45deg);
+}
+
+.first .main-card .color1 .main-image img{
+    width: 90%;
+    height: 90%;
+   
+}
+
+
+
+.first .main-card .color2{
+    position: relative;
+}
+
+.first .main-card .color2 .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 5%;
+    left: 5%;
+    position: absolute;
+    width: 50px;
+    height: 20px;
+}
+
+.first .main-card .color2 .main-image{
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -10%;
+    left: -20%;
+    position: absolute;
+    width: 340px;
+    height: 200px;
+    transform: rotate(-45deg);
+}
+
+.first .main-card .color2 .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.first .main-card .color2 .main-image img{
+    width: 90%;
+    height: 90%;
+   
+}
+
+
+.first .main-card .color3{
+    position: relative;
+}
+
+.first .main-card .color3 .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 5%;
+    left: 5%;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+.first .main-card .color3 .main-image{
+    object-fit: cover;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -40%;
+    left: -8%;
+    position: absolute;
+    width: 300px;
+    height: 330px;
+    /* transform: rotate(45deg); */
+}
+
+.first .main-card .color3 .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.first .main-card .color3 .main-image img{
+    width: 90%;
+    height: 90%;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+.main-card .card{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: calc( 100% / 3);
+    height: 100%;
+    margin: 0px auto;
+}
+
+.main-card .card h6{
+    color: #00000091;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+.main-card .card h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: bebas;
+    font-weight: 500;
+}
+
+.main-card .card p{
+    color: #00000091;
+    margin-top: 16px;
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.main-card .card a{
+   text-decoration: none;
+
+}
+
+.main-card .card a button{
+    margin-top: 24px;
+    border: none;
+    border-radius: 50px;
+    width: 220px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+ }
+
+ .main-card .card a button h6{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 10px;
+ }
+
+ .main-card .card a button h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 10px;
+ }
+
+ .main-card .card a button span{
+    width: 10px;
+    height: 2px;
+    background-color: #fff;
+ }
+
+.first .main-card .card{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.second{
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 50vh;
+}
+
+.second .main-card{
+    height: 80%;
+   
+}
+
+
+.second .main-card .card{
+    background-color: #fff;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
